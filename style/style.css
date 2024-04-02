@@ -437,12 +437,12 @@ aside {
 }
 .banner__box-title {
     font-size: 30px;
-    color: #0BD9E9;
+    color: white;
     font-weight: 700;
  }
 .banner__box-h1 {
     font-size: 109px;
-    color: #F9FAFA;
+    color: #E4C609;
     text-transform: uppercase;
     font-weight: 900;
     text-align: center;
@@ -451,7 +451,7 @@ aside {
     margin-bottom: 24px;
     font-size: 30px;
     line-height: 1.4;
-    color: white;
+    color: #E4C609;
     font-weight: 700;
     text-align: center;
 }
@@ -746,7 +746,7 @@ aside {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #74757b;
+    color: white;
   }
   
   td {
