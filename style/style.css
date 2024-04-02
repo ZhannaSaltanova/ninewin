@@ -410,20 +410,22 @@ aside {
     margin-top: 20px;
 }
 /* banner */
-.wrapper-section {
+/* .wrapper-section {
     padding-right: 2%;
     overflow-x: hidden;
-}
+} */
 
 main {
    width: 100%;
    max-width: 1440px;
-   padding-left: 90px;
+   padding-left: 70px;
    margin: 0 auto;
+   overflow: hidden;
 }
 @media screen and (max-width: 1280px){
     main {
-        margin:  0;
+        padding: 0;
+        margin: 0;
     }
 } 
 .banner {
@@ -581,6 +583,9 @@ main {
 .atr {
     display: flex;
     flex-direction: column;
+    margin: 0px auto 10px;
+    width: 100%;
+    max-width: 1368px;
 }
 .atr__welcome {
     display: flex;
@@ -607,24 +612,23 @@ main {
     color:white;
 }
 .pay {
-    margin: 0 auto;
     display: flex;
     justify-content: center;
-    gap:20px;
+    align-items: center;
+    gap:10px;
     overflow-x: auto;
-    max-width: 1300px;
+    margin: 20px auto 10px;
     width: 100%;
-    padding: 20px;
+    max-width: 1368px;
 }
 .pay img {
     width: 72px;
     height: 48px;
-    margin-right: 30px;
 }
 @media screen and (min-width: 1100px){
-    .pay {
+    /* .pay {
         padding-left: 70px;
-    }
+    } */
 }
 /* slot */
 
@@ -632,15 +636,15 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: calc(100% - 60px); 
-    padding: 0px 10px 10px 90px;
+    margin: 0px auto 10px;
+    width: 100%;
+    max-width: 1368px;
     overflow: hidden;
 }
 .slot__box { 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0 auto;
-    padding-left: 30px;
     
 }
 .slot__item { 
@@ -713,9 +717,9 @@ main {
     }
 }
 @media screen and (max-width: 478px) {
-    .wrapper-section {
+    /* .wrapper-section {
         padding-right: 1%;
-    }
+    } */
 }
 /* text */
 
@@ -723,12 +727,13 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: calc(100% - 60px); 
+    margin: 0px auto 10px;
+    width: 100%;
+    max-width: 1368px;
     padding: 40px 40px 40px 40px;
     overflow: hidden;
     background-color:#161D37;
     border-radius: 20px;
-    margin: 30px 20px 20px 80px;
 }
 .about-section {
     margin-top: 80px;
@@ -792,10 +797,13 @@ main {
 }
 
 .slot-second {
-    width: calc(100% - 60px); 
-    padding: 30px 20px 20px 80px;
+    margin: 0px auto 10px;
+    width: 100%;
+    max-width: 1368px;
+    padding-top: 70px;
     overflow: hidden;
     margin-bottom: 50px;
+    
  }
 .slot-second__box {
     display: flex;
@@ -849,8 +857,10 @@ main {
 /* footer */
 
 .footer {
-    width: calc(100% - 100px); 
-    margin: 30px 10px 10px 80px;
+    width: 100%;
+    max-width: 1440px;
+    padding-left: 70px;
+    margin: 70px auto;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -861,7 +871,9 @@ main {
     gap:40px;
     flex-wrap: wrap;
     overflow: hidden;
-    width: calc(100% - 100px); 
+    margin: 0px auto 10px;
+    width: 100%;
+    max-width: 1368px;
 }
 .footer-link {
     display: grid;
@@ -891,7 +903,9 @@ main {
 }
 .footer__top {
     overflow: hidden;
-    width: calc(100% - 100px); 
+    margin: 0px auto 10px;
+    width: 100%;
+    max-width: 1368px;
     margin-top: 20px;
     padding-top: 30px;
 }
