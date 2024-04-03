@@ -28,9 +28,7 @@ body {
     font-family: 'Montserrat',  sans-serif;
     background-color:#060E2A;
 }
-/* * {
-    outline: 1px solid red;
-  } */
+
 h1 {
     margin: 0 0 30px;
     font-size: 44px;
@@ -409,11 +407,6 @@ aside {
     padding: 11px 17px;
     margin-top: 20px;
 }
-/* banner */
-/* .wrapper-section {
-    padding-right: 2%;
-    overflow-x: hidden;
-} */
 
 main {
    width: 100%;
@@ -431,10 +424,6 @@ main {
 .banner {
     margin: 100px auto 10px;
     padding: 130px 30px; 
-    /* background-image: url('../img/header-bg.webp');
-    background-size:100%;
-    background-position: top;
-    background-repeat: no-repeat; */
     width: 100%;
     max-width: 1368px; 
     height: 500px;
@@ -540,8 +529,6 @@ main {
 }
 @media (max-width: 768px) {
     .banner {
-        /* background-image: url('../img/header-bg-mb.webp');
-        background-position: top; */
         height: 800px;
         margin-top:40px;
         align-items:flex-end;
@@ -564,7 +551,6 @@ main {
 }
 @media (max-width: 468px) {
     .banner {
-        /* background-image: url('../img/header-bg-mb.webp'); */
         height: 400px;
         margin: 70px 0px 5px 0px;
         align-items:flex-end;
@@ -633,11 +619,7 @@ main {
     width: 72px;
     height: 48px;
 }
-@media screen and (min-width: 1100px){
-    /* .pay {
-        padding-left: 70px;
-    } */
-}
+
 /* slot */
 
 .slot {
@@ -662,9 +644,11 @@ main {
     position: relative;
     border-radius:20px;
 }
-/* .margin {
-    margin-left: 20px;
-} */
+.slot__item-img {
+    width: 100%;
+    max-width: 251px;
+    height: 251px;
+}
 @media screen and(max-width:768px) {
     .margin {
         margin-left: 10px;
@@ -724,11 +708,7 @@ main {
         padding-left: 0;
     }
 }
-@media screen and (max-width: 478px) {
-    /* .wrapper-section {
-        padding-right: 1%;
-    } */
-}
+
 /* text */
 
 .text { 
@@ -798,7 +778,6 @@ main {
 
 @media screen and (max-width: 1280px) {
     .text { 
-        /* margin: 5px; */
         padding: 10px;
         width: 100%;
     }
