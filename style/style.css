@@ -507,6 +507,7 @@ main {
     z-index: -1;
     display: block;
     width: 100%;
+    max-width: 1360px;
 
     -webkit-user-select: none;
     -moz-user-select: none;
