@@ -123,7 +123,6 @@ p {
     width: 40%;
     padding: 10px 26px;
 }
-.header__logo-header { }
 .logo {
     cursor: pointer;
  }
@@ -298,7 +297,7 @@ aside {
     cursor: pointer;
  }
 .menu__img:hover {
-    background-color:#EFF0F1;
+    background-color:#353B52;
     border-radius: 10px;
 }
 .burgermenu.open {
